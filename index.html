@@ -56,6 +56,34 @@
       width: 100%;
       border-radius: 8px;
       border: 1px solid #30363d;
+      cursor: pointer;
+      transition: transform 0.2s;
+    }
+    .grid img:hover {
+      transform: scale(1.02);
+    }
+    /* Lightbox styles */
+    .lightbox {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: rgba(0, 0, 0, 0.9);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      visibility: hidden;
+      opacity: 0;
+      transition: opacity 0.3s;
+      z-index: 1000;
+    }
+    .lightbox.show {
+      visibility: visible;
+      opacity: 1;
+    }
+    .lightbox img {
+      max-width: 90%;
+      max-height: 90%;
+      border-radius: 8px;
     }
     footer {
       text-align: center;
@@ -105,5 +133,26 @@
   <footer>
     <p>© 2025 Brice Dickey | Cybersecurity Portfolio</p>
   </footer>
+
+  <!-- Lightbox container -->
+  <div class="lightbox" id="lightbox">
+    <img src="" alt="Expanded screenshot">
+  </div>
+
+  <script>
+    const lightbox = document.getElementById("lightbox");
+    const lightboxImg = lightbox.querySelector("img");
+
+    document.querySelectorAll(".grid img").forEach(img => {
+      img.addEventListener("click", () => {
+        lightboxImg.src = img.src;
+        lightbox.classList.add("show");
+      });
+    });
+
+    lightbox.addEventListener("click", () => {
+      lightbox.classList.remove("show");
+    });
+  </script>
 </body>
 </html>
