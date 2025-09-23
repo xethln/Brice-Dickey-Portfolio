@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Brice Dickey — Cybersecurity Portfolio</title>
+  <style>
+    :root{
+      --bg:#0b1220; --card:#0f1724; --accent:#00bfff; --muted:#94a3b8;
+      --container:1100px; --glass:rgba(255,255,255,0.03);
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,system-ui,sans-serif;color:#e6eef8;
+      background:linear-gradient(180deg,#041021 0%,#081829 100%);}
+    .wrap{max-width:var(--container);margin:32px auto;padding:28px;
+      border-radius:16px;box-shadow:0 8px 40px rgba(2,6,23,.7);}
+    header{display:flex;justify-content:space-between;align-items:center;gap:16px}
+    .name{display:flex;align-items:center;gap:16px}
+    .avatar{width:84px;height:84px;border-radius:12px;
+      background:linear-gradient(135deg,var(--accent),#5ee7ff);
+      display:flex;align-items:center;justify-content:center;font-weight:700}
+    h1{margin:0;font-size:20px;color:#fff}
+    .contact{color:var(--muted);font-size:14px}
+    .buttons{display:flex;gap:10px}
+    .btn{border:1px solid rgba(255,255,255,.08);padding:8px 12px;
+      border-radius:10px;color:var(--accent);text-decoration:none;font-size:13px}
+    .grid{display:grid;grid-template-columns:320px 1fr;gap:20px;margin-top:22px}
+    .card{background:var(--card);padding:18px;border-radius:12px}
+    .section-title{color:var(--accent);font-weight:700;margin-bottom:8px}
+    .muted{color:var(--muted);font-size:14px}
+    ul.skills{list-style:none;padding:0;margin:0;display:grid;
+      grid-template-columns:repeat(2,1fr);gap:8px}
+    ul.skills li{background:var(--glass);padding:8px;border-radius:8px;font-size:13px}
+    .project{background:rgba(0,0,0,.12);padding:14px;border-radius:10px;margin-bottom:12px}
+    .project h3{margin:0}
+    .screenshot-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin-top:12px}
+    .screenshot-grid img{width:100%;height:140px;object-fit:cover;border-radius:8px}
+    footer{margin-top:20px;color:var(--muted);font-size:13px;text-align:center}
+    .cv-link{color:#001527;background:var(--accent);padding:8px 12px;border-radius:8px;text-decoration:none}
+    @media(max-width:880px){.grid{grid-template-columns:1fr}.avatar{width:68px;height:68px}}
+    .lightbox{position:fixed;inset:0;background:rgba(0,0,0,.85);display:flex;align-items:center;justify-content:center;padding:20px;z-index:9999;visibility:hidden;opacity:0;transition:opacity .2s}
+    .lightbox.show{visibility:visible;opacity:1}
+    .lightbox img{max-width:100%;max-height:90vh;border-radius:8px}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="name">
+        <div class="avatar">BD</div>
+        <div>
+          <h1>Brice Dickey</h1>
+          <div class="contact">Siloam Springs, AR • 479-228-3407 • <a href="mailto:xethln1@gmail.com" style="color:var(--accent)">xethln1@gmail.com</a></div>
+        </div>
+      </div>
+      <div class="buttons">
+        <a class="btn" href="assets/Brice_Dickey_OnePage_Resume.pdf" target="_blank">Resume</a>
+        <a class="btn" href="assets/Brice_Dickey_TryHackMe_SOC_Sim_Writeup.pdf" target="_blank">Lab Write-up</a>
+      </div>
+    </header>
+
+    <div class="grid">
+      <aside>
+        <div class="card">
+          <div class="section-title">About</div>
+          <p class="muted">Google-certified Cybersecurity Professional with 8+ years in embedded systems security and reverse-engineering. Skilled in incident response, SIEM/IDS, and data-driven troubleshooting. Seeking SOC Tier 1 roles.</p>
+          <div class="section-title">Skills & Tools</div>
+          <ul class="skills">
+            <li>SIEM (Splunk/ELK)</li><li>IDS/IPS</li><li>Incident Response</li><li>Linux CLI</li>
+            <li>Python (Beginner)</li><li>SQL (Beginner)</li><li>Reverse Engineering</li><li>EEPROM Programming</li>
+          </ul>
+          <div class="section-title">Certifications</div>
+          <p class="muted">Google Cybersecurity Professional Certificate — Sept 2025</p>
+          <div class="section-title">Education</div>
+          <p class="muted">High School Diploma — West Fork High School (2003)</p>
+        </div>
+      </aside>
+
+      <main>
+        <div class="card">
+          <div class="section-title">Featured Project — TryHackMe SOC Lab</div>
+          <p class="muted">Simulated SOC analyst work: alert triage, phishing detection, log correlation, remediation planning.</p>
+          <div class="project">
+            <h3>Key Findings</h3>
+            <ul class="muted">
+              <li>Phishing emails with malicious URLs correlated with firewall logs.</li>
+              <li>Validated true positives and tuned false positives.</li>
+              <li>Timeline built; containment steps recommended.</li>
+            </ul>
+            <h3>Evidence</h3>
+            <div class="screenshot-grid" id="screens">
+              <img src="assets/screenshot1.jpg" data-full="assets/screenshot1.jpg" alt="">
+              <img src="assets/screenshot2.jpg" data-full="assets/screenshot2.jpg" alt="">
+              <img src="assets/screenshot3.jpg" data-full="assets/screenshot3.jpg" alt="">
+              <img src="assets/screenshot4.jpg" data-full="assets/screenshot4.jpg" alt="">
+            </div>
+          </div>
+          <a class="cv-link" href="assets/Brice_Dickey_TryHackMe_SOC_Sim_Writeup.pdf" target="_blank">Full Lab PDF</a>
+        </div>
+
+        <div class="card">
+          <div class="section-title">Other Projects</div>
+          <div class="project">
+            <h3>Automotive EEPROM Analysis</h3>
+            <p class="muted">Reverse-engineered immobilizer EEPROM data to recover keys, proposed mitigations.</p>
+          </div>
+          <div class="project">
+            <h3>SIEM Detection Rules</h3>
+            <p class="muted">Designed alert logic for anomalous logins and privilege escalations.</p>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <footer>
+      <p>Contact: <a href="mailto:xethln1@gmail.com" style="color:var(--accent)">xethln1@gmail.com</a> • © Brice Dickey</p>
+    </footer>
+  </div>
+
+  <div id="lightbox" class="lightbox" onclick="hideLightbox()"><img id="lb-img" src="" alt=""></div>
+  <script>
+    document.querySelectorAll('#screens img').forEach(img=>{
+      img.addEventListener('click',()=>{
+        document.getElementById('lb-img').src=img.dataset.full;
+        document.getElementById('lightbox').classList.add('show');
+      });
+    });
+    function hideLightbox(){document.getElementById('lightbox').classList.remove('show');}
+  </script>
+</body>
+</html>
