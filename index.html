@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Brice Dickey | Cybersecurity Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #0d1117;
+      color: #c9d1d9;
+      line-height: 1.6;
+    }
+    header {
+      background: #161b22;
+      padding: 1.5rem;
+      text-align: center;
+      border-bottom: 2px solid #30363d;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+      color: #58a6ff;
+    }
+    header p {
+      margin: 0.3rem 0 0;
+      font-size: 1rem;
+    }
+    .container {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    section {
+      margin-bottom: 2rem;
+    }
+    h2 {
+      color: #58a6ff;
+      border-bottom: 1px solid #30363d;
+      padding-bottom: 0.5rem;
+    }
+    h3 {
+      margin-top: 1rem;
+      color: #8b949e;
+    }
+    a {
+      color: #58a6ff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+    }
+    .grid img {
+      width: 100%;
+      border-radius: 8px;
+      border: 1px solid #30363d;
+      cursor: pointer;
+      transition: transform 0.2s;
+    }
+    .grid img:hover {
+      transform: scale(1.02);
+    }
+    /* Lightbox styles */
+    .lightbox {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: rgba(0, 0, 0, 0.9);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      visibility: hidden;
+      opacity: 0;
+      transition: opacity 0.3s;
+      z-index: 1000;
+    }
+    .lightbox.show {
+      visibility: visible;
+      opacity: 1;
+    }
+    .lightbox img {
+      max-width: 90%;
+      max-height: 90%;
+      border-radius: 8px;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      border-top: 2px solid #30363d;
+      font-size: 0.9rem;
+      color: #8b949e;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Brice Dickey</h1>
+    <p>Aspiring SOC Analyst | Beginner in Cybersecurity | Fast Learner</p>
+  </header>
+
+  <div class="container">
+    <section>
+      <h2>About Me</h2>
+      <p>
+        Hi, I’m <strong>Brice Dickey</strong> — a beginner in cybersecurity with a strong foundation 
+        in technical problem-solving from my 8+ years as an Automotive Security Specialist. 
+        My background in reverse engineering vehicle security systems has taught me how to stay 
+        calm under pressure, analyze complex systems, and solve problems creatively.
+      </p>
+      <p>
+        I’m now transitioning into cybersecurity, where I’m eager to apply those same skills 
+        to defending systems and responding to threats. While I’m early in my cybersecurity journey, 
+        I’m a <strong>fast learner</strong> who thrives in hands-on labs and real-world scenarios.
+      </p>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <h3>Foundational Skills I Have</h3>
+      <ul>
+        <li>Linux command line basics</li>
+        <li>Networking fundamentals</li>
+        <li>Reverse engineering concepts</li>
+        <li>Problem-solving under pressure</li>
+      </ul>
+      <h3>Skills I’m Building</h3>
+      <ul>
+        <li>SIEM and IDS tools (Splunk, ELK, Suricata)</li>
+        <li>Incident response and SOC workflows</li>
+        <li>Python scripting for automation</li>
+        <li>SQL for data analysis</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Hands-On Learning</h2>
+      <p>
+        I’ve been working through cybersecurity labs to gain practical skills. 
+        One highlight is the <strong>TryHackMe SOC Simulation Lab</strong>, where I practiced 
+        alert triage, phishing analysis, and log correlation. 
+        It was my first real taste of acting as a SOC analyst.
+      </p>
+      <ul>
+        <li><a href="Brice_Dickey_TryHackMe_SOC_Sim_Writeup_with_Images.pdf" target="_blank">🔐 Full Lab Write-up (PDF)</a></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Portfolio Documents</h2>
+      <ul>
+        <li><a href="Brice_Dickey_Visual_Resume.pdf" target="_blank">📄 Visual Resume</a></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>TryHackMe SOC Simulation Highlights</h2>
+      <div class="grid">
+        <img src="assets/screenshot1.jpeg" alt="SOC Simulation Screenshot 1">
+        <img src="assets/screenshot2.jpeg" alt="SOC Simulation Screenshot 2">
+        <img src="assets/screenshot3.jpeg" alt="SOC Simulation Screenshot 3">
+        <img src="assets/screenshot4.jpeg" alt="SOC Simulation Screenshot 4">
+      </div>
+    </section>
+
+    <section>
+      <h2>Personal Interests</h2>
+      <p>
+        Outside of cybersecurity, I’m passionate about <strong>drag racing</strong>. 
+        I build race cars from the ground up, which requires precision, persistence, 
+        and attention to detail — the same qualities that drive me in my learning journey.
+      </p>
+    </section>
+  </div>
+
+  <footer>
+    <p>© 2025 Brice Dickey | Always learning, always building.</p>
+  </footer>
+
+  <!-- Lightbox container -->
+  <div class="lightbox" id="lightbox">
+    <img src="" alt="Expanded screenshot">
+  </div>
+
+  <script>
+    const lightbox = document.getElementById("lightbox");
+    const lightboxImg = lightbox.querySelector("img");
+
+    document.querySelectorAll(".grid img").forEach(img => {
+      img.addEventListener("click", () => {
+        lightboxImg.src = img.src;
+        lightbox.classList.add("show");
+      });
+    });
+
+    lightbox.addEventListener("click", () => {
+      lightbox.classList.remove("show");
+    });
+  </script>
+</body>
+</html>
