@@ -1,64 +1,80 @@
 %PDF-1.4
-1 0 obj << /Type /Catalog /Pages 2 0 R >> endobj
-2 0 obj << /Type /Pages /Kids [3 0 R] /Count 1 >> endobj
-3 0 obj << /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R >> >> /Contents 5 0 R >> endobj
-4 0 obj << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >> endobj
-5 0 obj << /Length 4570 >> stream
-BT 0.02 0.08 0.16 rg /F1 18 Tf 40 760.0 Td (BRICE DICKEY) Tj ET
-0.04 0.36 0.68 RG 40 756.0 m 572 756.0 l S
-BT 0.2 0.23 0.27 rg /F1 8.5 Tf 40 740.0 Td (Siloam Springs, AR | 479-228-3407 | xethln1@gmail.com) Tj ET
-BT 0.2 0.23 0.27 rg /F1 8.5 Tf 40 729.5 Td (Portfolio: https://xethln.github.io/Brice-Dickey-Portfolio/) Tj ET
-BT 0.04 0.36 0.68 rg /F1 10.5 Tf 40 719.0 Td (ENTRY-LEVEL CYBERSECURITY / SOC ANALYST) Tj ET
-0.04 0.36 0.68 RG 40 715.0 m 572 715.0 l S
-BT 0 0 0 rg /F1 8.3 Tf 40 706.5 Td (Aspiring SOC Analyst with CompTIA Security+ and Google Cybersecurity training, hands-on labs in alert triage, email) Tj ET
-BT 0 0 0 rg /F1 8.3 Tf 40 696.2 Td (authentication, and domain reputation analysis. Beginner in cybersecurity, fast learner, and experienced technical) Tj ET
-BT 0 0 0 rg /F1 8.3 Tf 40 685.9 Td (problem-solver with 8+ years in automotive security, reverse engineering, embedded systems, and access control.) Tj ET
-BT 0.04 0.36 0.68 rg /F1 10 Tf 40 669.6 Td (CERTIFICATIONS) Tj ET
-0.04 0.36 0.68 RG 40 665.6 m 572 665.6 l S
-BT 0 0 0 rg /F1 8.4 Tf 40 656.6 Td (CompTIA Security+ \(SY0-701\) | Credential ID: COMP001022935790 | Certified Apr 2026 | Expires Apr 2029) Tj ET
-BT 0 0 0 rg /F1 8.4 Tf 40 646.2 Td (Google Cybersecurity Professional Certificate | Verification: I2QGLYS0OUPP | Issued Sep 12, 2025) Tj ET
-BT 0 0 0 rg /F1 8.1 Tf 40 635.8 Td (Google coursework included SIEM tools, IDS concepts, Python, Linux, SQL, detection and response, and risk management.) Tj ET
-BT 0.04 0.36 0.68 rg /F1 10 Tf 40 619.7 Td (TECHNICAL SKILLS) Tj ET
-0.04 0.36 0.68 RG 40 615.7 m 572 615.7 l S
-BT 0 0 0 rg /F1 8.1 Tf 40 606.7 Td (SIEM basics | IDS/IPS | Log analysis | Incident response | Threat detection | Email header analysis | SPF/DKIM/DMARC |) Tj ET
-BT 0 0 0 rg /F1 8.1 Tf 40 596.6 Td (WHOIS/DNS/MX investigation | VirusTotal | MXToolbox | Linux CLI | Python beginner | SQL beginner | Reverse engineering) Tj ET
-BT 0 0 0 rg /F1 8.1 Tf 40 586.5 Td (| EEPROM data analysis) Tj ET
-BT 0.04 0.36 0.68 rg /F1 10 Tf 40 570.4 Td (HANDS-ON CYBERSECURITY PROJECTS) Tj ET
-0.04 0.36 0.68 RG 40 566.4 m 572 566.4 l S
-BT 0 0 0 rg /F1 8.7 Tf 40 557.4 Td (TryHackMe SOC Simulation Lab) Tj ET
-BT 0 0 0 rg /F1 8.1 Tf 40 546.7 Td (- Performed alert triage, phishing analysis, firewall correlation, true/false positive classification, and) Tj ET
-BT 0 0 0 rg /F1 8.1 Tf 40 536.6 Td (incident documentation.) Tj ET
-BT 0 0 0 rg /F1 8.7 Tf 40 526.5 Td (French Promotional Email Analysis) Tj ET
-BT 0 0 0 rg /F1 8.1 Tf 40 515.8 Td (- Analyzed a French-language promotional email using original message headers, SPF/DKIM/DMARC validation, and) Tj ET
-BT 0 0 0 rg /F1 8.1 Tf 40 505.7 Td (VirusTotal reputation checks; classified as benign.) Tj ET
-BT 0 0 0 rg /F1 8.7 Tf 40 495.6 Td (AmericanMuscle Domain Legitimacy Review) Tj ET
-BT 0 0 0 rg /F1 8.1 Tf 40 484.9 Td (- Investigated suspicious-looking e-commerce pricing using WHOIS, DNS/MX records, blacklist checks, SMTP) Tj ET
-BT 0 0 0 rg /F1 8.1 Tf 40 474.8 Td (testing, and VirusTotal; identified legitimate trust indicators.) Tj ET
-BT 0.04 0.36 0.68 rg /F1 10 Tf 40 458.7 Td (PROFESSIONAL EXPERIENCE) Tj ET
-0.04 0.36 0.68 RG 40 454.7 m 572 454.7 l S
-BT 0 0 0 rg /F1 8.5 Tf 40 445.7 Td (Automotive Security Specialist - Rkeys Locksmith | Siloam Springs, AR | 2022-Present) Tj ET
-BT 0 0 0 rg /F1 8 Tf 40 435.2 Td (- Reverse-engineer and troubleshoot advanced automotive security and immobilizer systems using diagnostic tools) Tj ET
-BT 0 0 0 rg /F1 8 Tf 40 425.2 Td (and structured problem solving.) Tj ET
-BT 0 0 0 rg /F1 8 Tf 40 415.2 Td (- Perform EEPROM programming and embedded data analysis to resolve access control and key generation issues.) Tj ET
-BT 0 0 0 rg /F1 8.5 Tf 40 405.2 Td (Automotive Security Specialist - Locksmith Eugene | Eugene, OR | 2021-2022) Tj ET
-BT 0 0 0 rg /F1 8 Tf 40 394.7 Td (- Applied non-destructive entry, secure key generation, and high-security system analysis across complex vehicle) Tj ET
-BT 0 0 0 rg /F1 8 Tf 40 384.7 Td (platforms.) Tj ET
-BT 0 0 0 rg /F1 8.5 Tf 40 374.7 Td (Automotive Security Specialist - Intellikey | Dallas, TX | 2016-2021) Tj ET
-BT 0 0 0 rg /F1 8 Tf 40 364.2 Td (- Analyzed encrypted immobilizer systems, performed chip-level troubleshooting, and applied ethical security) Tj ET
-BT 0 0 0 rg /F1 8 Tf 40 354.2 Td (principles to technical recovery work.) Tj ET
-BT 0.04 0.36 0.68 rg /F1 10 Tf 40 338.2 Td (EDUCATION) Tj ET
-0.04 0.36 0.68 RG 40 334.2 m 572 334.2 l S
-BT 0 0 0 rg /F1 8.2 Tf 40 325.2 Td (High School Diploma - West Fork High School | West Fork, AR | 2003) Tj ET
-endstream endobj
+%“Œ‹ž ReportLab Generated PDF document (opensource)
+1 0 obj
+<<
+/F1 2 0 R /F2 3 0 R /F3 4 0 R
+>>
+endobj
+2 0 obj
+<<
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+>>
+endobj
+3 0 obj
+<<
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+>>
+endobj
+4 0 obj
+<<
+/BaseFont /Helvetica-Oblique /Encoding /WinAnsiEncoding /Name /F3 /Subtype /Type1 /Type /Font
+>>
+endobj
+5 0 obj
+<<
+/Contents 9 0 R /MediaBox [ 0 0 612 792 ] /Parent 8 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+6 0 obj
+<<
+/PageMode /UseNone /Pages 8 0 R /Type /Catalog
+>>
+endobj
+7 0 obj
+<<
+/Author (\(anonymous\)) /CreationDate (D:20260429205846+00'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20260429205846+00'00') /Producer (ReportLab PDF Library - \(opensource\)) 
+  /Subject (\(unspecified\)) /Title (\(anonymous\)) /Trapped /False
+>>
+endobj
+8 0 obj
+<<
+/Count 1 /Kids [ 5 0 R ] /Type /Pages
+>>
+endobj
+9 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 1824
+>>
+stream
+Gat=+=``=U&:XAWfVabXkT[.PH)`(1NERE]`Q%;(?6Bjn&VC2gJ;VnAO7*-4FI;'`*R.\2)YeLMgM[T`d)D&Us8!>C7h7Yi%QH(c)fU,j*dDl_o<,f53Vge2"%25U&*("!I3uF)Gg.\"n4nWb/iY).ijo>hnPM'6_NajLFT2i`YMf@qJ3W)W'YNb]J\)dZ]%FDCB&H>%"c6WT8/?,D'?3i;&+kT8/_;#NY'\tJrd:P'jK\="2Bn*hI1b"T0c9R>02@Hf`cu+D`oe0T$9t5h&5mELBB"Pt[U.Z4%EKV*G8d1+M>GT`A59PA9S_lDbs]V#eB2H>Q%5E/?i.__91R;`2R88nUtAM?R"u'(AK"!*eu!$:e/E<3Q$F7JKUJ(?no4_@1ppC'^14AYOuQ8i&HdGUW+7_SENg:Go@Z8<:8J.H);3Fb,U$*[_'&G8_t;qo#R'9E`]H8^1trY&Tr<,HJrq!%!ClNd:Pi$n2F(.l,,*\M!Z1ioMMrV]MFMA"">g+4ma4QGq1Q2>K^Z$ghabQ!(U99X2bQdL)q%hEhn"n0QN<e$RVjG#HSE>/=i..Q__".e3-l<<#ohj$$;CmAMU)>lJq.V$(LY9<9<&V`P.'[3eK=`tFWS_7JrI$1*eUJH+#m8cd5rt?63W.mR#!0\k$qLk5;e,,LK.j[=1<n6^3U#7f,_^r;A22\4jKrI@.JQWk]WN"leYn@LGrN)P9p-.+h!oXAA>!>j`ka=k<h'__k&BrnWG6QjB@/iFo/R4?=3_V%R'*40cJ#WH=<>qZIg[Bp&oTtSi)lk((9io&bVQglDW6TZW:R.#Wn]]+YU$mGp0;f>X;*R6:m#gBq_qthh0n-bd>MJB,.9Z[nW7h5"BtKqsi.2$&bN[a16/i?lu?H0'!E<"OjH.Mo0Hb9HTQpGlI=pa05:?h+pq>f@f2)rnpemHU@3/W%UiAaqL65-J\W8%^!]c1O$[l5uQeC'CfGtBbg%klOIiqmoZ)(dPHd`nJtKtp^@V@BcN3?R4#Y1$C'pYOsn2RDfHS?*F`AX2:b/MJ+]rNbKkBfT=+N9D^tCE($VZ]=7<4]cR\928jd$Um`;t?c.A^?CY;CkXQG[^3usV<8i\>cGg$8Un,Ob>1jZ664!B]"T+e=%%Dt\>VR3ZqROKLK1"5:T5_/7Pd#SEhp0*l>9^.6@9u,:cT]/%&n/\QRfFcD\>`U$S!Oe:]a"@U`2-Y7U.e@p+b`@P4ALI%pYdLau80MV*;>cO8:hsO1)i54tVS5eO4`[ecK7hm[X1I8L%g06+9XDVr?Y+h(4]+su,hDXGF`49@@_Z,3='G*IL<R\XE&sT6;8-f',)&s=D4$/(Z"BO)N@Jk`D"7h&NhSAU'9i<+B1r\FZc1DR4WnkMpAlk&m?2W$(F_gmqsVFi5FVOd)Nl*SneCa_`3"Q%feL.50]X:^SK-NbC*8]OZ-<t3.kr31E)*qF/\j<8Sje!@@u<E6(8rHb=blK7]#Mu>'UUD8j/Pso)CO8Q?l'.aeYd)EnH5jkF`C7k$<:,rfYRU?8"RtQpk5pgokUN_WnKps^&$#q,i$"P'C7tJ^_s+b6&jbmN,&N5_6sI_\;J]/N2glJ1A?nP,Ium^fe%E[>c2.6K0u)&FN:ZN8qDFrP&s,f97ZV2=KWpYN:Ht?"Q$[/>V?J&8q$;HE#P9k-6oT4gh0te[rBch0G>_/<(%n''_</M-eK!fgsi0%8.n6YTEO-e@9gtIct<.PBs76<`6$PPIJ-iRMiV?X."7#kL3#-JPhk7_LD][Wk\Z"edn%]?eLEJ$]?)9a[\>.g.pECZ1_%U:KF@5tH),EP0+Eh_c2~>endstream
+endobj
 xref
-0 6
+0 10
 0000000000 65535 f 
-0000000009 00000 n 
-0000000058 00000 n 
-0000000115 00000 n 
-0000000241 00000 n 
-0000000311 00000 n 
-trailer << /Size 6 /Root 1 0 R >>
+0000000061 00000 n 
+0000000112 00000 n 
+0000000219 00000 n 
+0000000331 00000 n 
+0000000446 00000 n 
+0000000639 00000 n 
+0000000707 00000 n 
+0000000987 00000 n 
+0000001046 00000 n 
+trailer
+<<
+/ID 
+[<b902bf2e393b338bb6733c143de2ae2a><b902bf2e393b338bb6733c143de2ae2a>]
+% ReportLab generated PDF document -- digest (opensource)
+
+/Info 7 0 R
+/Root 6 0 R
+/Size 10
+>>
 startxref
-4932
+2961
 %%EOF
