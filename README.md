@@ -1,27 +1,14 @@
 # Brice Dickey | Cybersecurity Portfolio
 
-This repository contains my cybersecurity portfolio hosted with GitHub Pages.
+Live site: https://xethln.github.io/Brice-Dickey-Portfolio/
 
-## Contents
+Includes updated resume, CompTIA Security+, Google Cybersecurity Professional Certificate, and SOC case studies.
 
-- Entry-level cybersecurity resume
-- CompTIA Security+ certification
-- Google Cybersecurity Professional Certificate details
-- SOC case studies:
-  - TryHackMe SOC Simulation
-  - French Promotional Email Analysis
-  - AmericanMuscle Domain Legitimacy Review
-
-## Focus Areas
-
-- SOC analyst fundamentals
-- Email header analysis
-- SPF, DKIM, and DMARC validation
-- Domain reputation and WHOIS analysis
-- DNS, MX, blacklist, and SMTP checks
-- Incident documentation
+## Case Studies
+- TryHackMe SOC Simulation
+- French Promotional Email Analysis
+- AmericanMuscle Domain Legitimacy Review
 
 ## Contact
-
-- Email: xethln1@gmail.com
-- Location: Siloam Springs, AR
+- xethln1@gmail.com
+- https://xethln.github.io/Brice-Dickey-Portfolio/
